@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    textarea,input:not([type='submit']){
+        color: var(--text-color);
+        height: 50px;      
+        width: 250px;
+        padding-left: 16px;
+        border:1px
+        /* background-color: var(--text-color); */
+    }
+
+    textarea{
+        padding-top: 10px;
+        height: 100px;
+        resize: none;
+    }
+
+    input,textarea{
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-color: var(--background-color);
+        color: var(--form-text-color);
+    }
+
+    input[type='submit']{
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        width:126px;
+        height: 50px;
+        align-self: center;
+        margin:auto
+    }   
+}
