@@ -10,28 +10,26 @@ export const Skills = () => {
         <section className={styles.container}>
             <h1>Skills</h1>
             <div className={styles.skillSet}>
-            {/* <img src={checkMarkIcon} alt='check'></img>
-            <p>Javascript</p> */}
+                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
                 <SkillsList src={checkMarkIcon} name='Javascript'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Javascript'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Javascript'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='C++'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='Python'></SkillsList>
 
             </div>
             <hr/>
             <div className={styles.skillSet}>
-                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Node'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='React Native'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='Node.js'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='Next.js'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='React.js'></SkillsList>
             </div>
-                        <hr/>
+            <hr/>
             <div className={styles.skillSet}>
-                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Node'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
-                <SkillsList src={checkMarkIcon} name='Typescript'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='SQLite'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='PostgreSQL'></SkillsList>
+                <SkillsList src={checkMarkIcon} name='MongoDB'></SkillsList>
             </div>
-                        <hr/>
+            <hr/>
         </section>
     
     </>)

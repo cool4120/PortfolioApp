@@ -7,13 +7,15 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+        border-color: white;
+
     }
     textarea,input:not([type='submit']){
         color: var(--text-color);
         height: 50px;      
         width: 250px;
         padding-left: 16px;
-        border:1px
+        border:1px;
         /* background-color: var(--text-color); */
     }
 
@@ -23,11 +25,14 @@
         resize: none;
     }
 
-    input,textarea{
-        border-radius: 10px;
-        box-sizing: border-box;
-        background-color: var(--background-color);
-        color: var(--form-text-color);
+    input,
+    textarea {
+      border-radius: 20px;
+      border: #888 1px solid;
+      box-sizing: border-box;
+      justify-self: center;
+      background-color: var(--background-color);
+      color: var(--form-text-color);
     }
 
     input[type='submit']{
@@ -39,3 +44,21 @@
         margin:auto
     }   
 }
+
+@media(width >=800px){
+    textarea, input:not([type='submit']){
+        width: 600px;
+        font-size: 20px;
+    }
+
+    form{
+        gap: 40px;
+    }
+}
+
+@media(width >=1400px){
+    textarea, input:not([type='submit']){
+        width: 800px;
+    }
+}
+

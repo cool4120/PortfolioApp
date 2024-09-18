@@ -26,7 +26,6 @@ export const Hero = () => {
                 <div className={styles.info}>
                     <h1>Colin C Thomas</h1>
                     <h2>Software Developer</h2>
-                </div>
                 <span>
                     {/* <a href='https://github.com/Ade-mir/harris-johnsen-2'>
                         <img src={TwiterIcon} alt={'Twitter'}></img>
@@ -38,10 +37,12 @@ export const Hero = () => {
                         <img src={githubIcon} alt={'Github Icon'}></img>
                     </a>
                 </span>
-                <p>Hello I Am a Software Developer with 1+ years of experience working in a startup. Proficient in web and mobile development technologies React.js, React Native & Node.js</p>
+                <p className={styles.description}>Hello I Am a Software Developer with 1+ years of experience working in a startup. 
+                    Proficient in web and mobile development technologies React.js, React Native & Node.js</p>
                 <a href={CV}>
                     <button className='hover'>Resume</button>
                 </a>
+                </div>
             </section>
         </>
     )
